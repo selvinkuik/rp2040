@@ -9,7 +9,7 @@ app = {
         (0x361e02, '>', [Keycode.CONTROL, Keycode.OPTION, Keycode.RIGHT_ARROW]),
         # 2nd row ----------
         (0x3e1602, '< 2/3', [Keycode.CONTROL, Keycode.OPTION, 'e']),
-        (0x3f2d02, '[C]', [Keycode.CONTROL, Keycode.OPTION, Keycode.COMMAND, 'r', -Keycode.COMMAND, Keycode.COMMAND, Keycode.OPTION, 'c']),
+        (0x3f2d02, '[C]', [Keycode.CONTROL, Keycode.OPTION, Keycode.COMMAND, 'r', -Keycode.CONTROL, -Keycode.OPTION, -Keycode.COMMAND, 0.5, Keycode.CONTROL, Keycode.OPTION, 'c']),
         (0x1c2912, '> 2/3', [Keycode.CONTROL, Keycode.OPTION, 't']),
         # 3rd row ----------
         (0x0d221c, '< 1/3', [Keycode.CONTROL, Keycode.OPTION, 'd']),
