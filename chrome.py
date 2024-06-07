@@ -18,7 +18,7 @@ app = {
         # 4th row ----------
         (0x000000, '', []),
         (0x11171d, '[Reload]', [Keycode.COMMAND, 'R']),
-        (0x081920, '[Focus]', [Keycode.COMMAND, Keycode.OPTION, '3']),
+        (0x081920, '[Focus]', [Keycode.COMMAND, Keycode.OPTION, '5']),
         # Encoder button ---
         (0x000000, '', [])
     ]

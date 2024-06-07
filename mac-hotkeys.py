@@ -10,7 +10,7 @@ app = {
         # 2nd row ----------
         (0x3e1602, 'Finder', [Keycode.COMMAND, Keycode.OPTION, '3']),
         (0x3f2d02, 'Fork', [Keycode.COMMAND, Keycode.OPTION, '4']),
-        (0x1c2912, 'Missive', [Keycode.COMMAND, Keycode.OPTION, '6']),
+        (0x1c2912, 'Mimest.', [Keycode.COMMAND, Keycode.OPTION, '6']),
         # 3rd row ----------
         (0x0d221c, 'Slack', [Keycode.COMMAND, Keycode.OPTION, '7']),
         (0x0f1d1c, 'Term.', [Keycode.COMMAND, Keycode.OPTION, '8']),
