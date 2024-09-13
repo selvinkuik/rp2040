@@ -8,7 +8,7 @@ app = {
         (0x361503, 'loquet', ['tmuxinator start loquet', Keycode.ENTER]),
         (0x361e02, 'recdek', ['tmuxinator start recdek-api', Keycode.ENTER]),
         # 2nd row ----------
-        (0x000000, '', []),
+        (0x021d1e, 'cibyn', ['tmuxinator start call-it-by-your-name', Keycode.ENTER]),
         (0x000000, '', []),
         (0x000000, '', []),
         # 3rd row ----------
