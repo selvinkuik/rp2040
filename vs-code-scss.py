@@ -4,13 +4,13 @@ app = {
     'name' : 'VS Code: SCSS',
     'macros' : [
         # 1st row ----------
-        (0x000405, '@sm-on', '@include small-only {'),
-        (0x000405, '@md-up', '@include medium-up {'),
-        (0x001317, '@lg-up', '@include large-up {'),
+        (0x000405, '@sm-on', '@include medium-up {'),
+        (0x000405, '@md-up', '@include large-up {'),
+        (0x001317, '@lg-up', '@include large-down {'),
         # 2nd row ----------
         (0x021d1e, 'var()', 'var(--'),
-        (0x000000, '', []),
-        (0x000000, '', []),
+        (0x153228, '&__', '&__'),
+        (0x403410, '&--', '&--'),
         # 3rd row ----------
         (0x000000, '', []),
         (0x000000, '', []),

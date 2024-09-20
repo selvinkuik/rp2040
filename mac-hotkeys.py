@@ -17,8 +17,8 @@ app = {
         (0x250c01, 'VS Code', [Keycode.COMMAND, Keycode.OPTION, '9']),
         # 4th row ----------
         (0x230604, '[<Tab]', [Keycode.COMMAND, Keycode.SHIFT, '[']),
-        (0x1f0708, '[Tab>]', [Keycode.COMMAND, Keycode.SHIFT, ']']),
         (0x1f0708, '[Cycle]', [Keycode.COMMAND, '`']),
+        (0x1f0708, '[Tab>]', [Keycode.COMMAND, Keycode.SHIFT, ']']),
         # Encoder button ---
         (0x000000, '', [])
     ]

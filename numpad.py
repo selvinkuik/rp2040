@@ -16,8 +16,8 @@ app = {
         (0x281500, '2', ['2']),
         (0x250c01, '3', ['3']),
         # 4th row ----------
-        (0x230604, '0', ['0']),
-        (0x1f0708, '[Bcksp]', [Keycode.BACKSPACE]),
+        (0x230604, '[Bcksp]', [Keycode.BACKSPACE]),
+        (0x1f0708, '0', ['0']),
         (0x1f0708, '[Enter]', [Keycode.ENTER]),
         # Encoder button ---
         (0x000000, '', [])

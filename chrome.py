@@ -12,13 +12,13 @@ app = {
         (0x153228, 'Bkmk br', [Keycode.COMMAND, Keycode.SHIFT, 'b']),
         (0x000000, '', []),
         # 3rd row ----------
-        (0x301f00, '[<Tab]', [Keycode.COMMAND, '[']),
         (0x000000, '', []),
-        (0x250c01, '[Tab>]', [Keycode.COMMAND, ']']),
+        (0x281500, '[Reload]', [Keycode.COMMAND, 'R']),
+        (0x000000, '', []),
         # 4th row ----------
-        (0x000000, '', []),
-        (0x1f0708, '[Reload]', [Keycode.COMMAND, 'R']),
+        (0x230604, '[<Tab]', [Keycode.COMMAND, '[']),
         (0x1f0708, '[Focus]', [Keycode.COMMAND, Keycode.OPTION, '5']),
+        (0x1f0708, '[Tab>]', [Keycode.COMMAND, ']']),
         # Encoder button ---
         (0x000000, '', [])
     ]

@@ -17,8 +17,8 @@ app = {
         (0x250c01, '> 1/3', [Keycode.CONTROL, Keycode.OPTION, 'g']),
         # 4th row ----------
         (0x000000, '', []),
-        (0x000000, '', []),
         (0x1f0708, '[Switch]', [Keycode.CONTROL, Keycode.OPTION, Keycode.COMMAND, Keycode.RIGHT_ARROW]),
+        (0x000000, '', []),
         # Encoder button ---
         (0x000000, '', [])
     ]
