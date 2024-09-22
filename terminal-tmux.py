@@ -16,9 +16,9 @@ app = {
         (0x000000, '', []),
         (0x000000, '', []),
         # 4th row ----------
-        (0x000000, '', []),
+        (0x230604, '[<Tab]', [Keycode.CONTROL, 'b', -Keycode.CONTROL, Keycode.UP_ARROW]),
         (0x1f0708, '[kill]', [Keycode.CONTROL, 'c', -Keycode.CONTROL, 'tmuxinator stop ']),
-        (0x000000, '', []),
+        (0x1f0708, '[Tab>]', [Keycode.CONTROL, 'b', -Keycode.CONTROL, Keycode.DOWN_ARROW]),
         # Encoder button ---
         (0x000000, '', [])
     ]
