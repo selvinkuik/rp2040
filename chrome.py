@@ -10,7 +10,7 @@ app = {
         # 2nd row ----------
         (0x021d1e, 'Mob br', [Keycode.COMMAND, Keycode.SHIFT, 'm']),
         (0x153228, 'Bkmk br', [Keycode.COMMAND, Keycode.SHIFT, 'b']),
-        (0x000000, '', []),
+        (0x403410, 'Tab #', [Keycode.CONTROL, Keycode.SHIFT, '1']),
         # 3rd row ----------
         (0x000000, '', []),
         (0x281500, '[Reload]', [Keycode.COMMAND, 'R']),
