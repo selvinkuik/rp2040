@@ -5,8 +5,8 @@ app = {
     'macros' : [
         # 1st row ----------
         (0x000405, '@sm-on', '@include medium-up {'),
-        (0x000405, '@md-up', '@include large-up {'),
-        (0x001317, '@lg-up', '@include large-down {'),
+        (0x000405, '@lg-dn', '@include large-down {'),
+        (0x001317, '@lg-up', '@include large-up {'),
         # 2nd row ----------
         (0x021d1e, 'var()', 'var(--'),
         (0x153228, '&__', '&__'),

@@ -1,7 +1,7 @@
 from adafruit_hid.keycode import Keycode
 
 app = {
-    'name' : 'VS Code: Shopify',
+    'name' : 'VS Code: Liquid',
     'macros' : [
         # 1st row ----------
         (0x000405, '{%', '{% '),
